@@ -45,7 +45,7 @@ const workerName = worker.WorkerName || worker.workerName || `Unnamed Worker ${i
       typeof worker.AvailableSlots === 'string'
         ? worker.AvailableSlots.split(',').map((s: string) => parseInt(s.trim())).filter((n: number) => !isNaN(n))
         : Array.isArray(worker.AvailableSlots)
-        ? worker.AvailableSlots.map((n: any) => Number(n)).filter((n) => !isNaN(n))
+        ? worker.AvailableSlots.map((n: any) => Number(n)).filter((n: number) => !isNaN(n))
         : [];
 
     return {

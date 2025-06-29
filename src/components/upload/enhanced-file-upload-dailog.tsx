@@ -428,7 +428,7 @@ export function EnhancedFileUploadDialog({
           >
             <input {...getInputProps()} />
             <div className="space-y-3">
-              <div className Serie="mx-auto w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+              <div className="mx-auto w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                 <Upload className="w-6 h-6 text-primary" />
               </div>
               <div>
