@@ -7,7 +7,7 @@
 ## 🚀 **Live Demo**
 - **Deployed App**: [https://data-alchemist-prj.vercel.app](https://data-alchemist-prj.vercel.app)
 - **GitHub Repo**: [https://github.com/Virenishere/data-alchemist-prj.git](https://github.com/Virenishere/data-alchemist-prj.git)
-- **Demo Video**: _(Add link if available)_
+
 
 ---
 
